@@ -40,7 +40,7 @@ ul {
 header {
   background: #35424a;
   color: #ffffff;
-  padding-top: 30px;
+  padding-top: 10px;
   min-height: 70px;
   border-bottom: #e8491d 3px solid;
 }
@@ -60,6 +60,20 @@ header li {
 
 header #branding {
   float: left;
+}
+
+header #contact {
+  margin: 0;
+  padding-left: 10px;
+  text-align: left;
+  background-color: #e8491d;
+  border-radius: .8rem;
+  opacity: 0.5;
+  color: #e1edf5;
+}
+header #contact h5{
+  margin: 0;
+  padding: 0;
 }
 
 header #branding h1 {
@@ -111,6 +125,7 @@ header a:hover {
 #newsletter h1 {
   float: left;
 }
+
 
 #newsletter form {
   float: right;
