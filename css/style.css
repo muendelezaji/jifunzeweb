@@ -144,7 +144,7 @@ header a:hover {
   margin-top: 15px;
 }
 
-#newsletter input[type="email"] {
+#newsletter input[type="email"], #newsletter input[type="phone"] {
   padding: 4px;
   height: 25px;
   width: 250px;
@@ -232,7 +232,7 @@ footer {
     display: block;
     width: 100%;
   }
-  #newsletter form input[type="email"],
+  #newsletter form input[type="email"],#newsletter form input[type="phone"],
   .quote input,
   .quote textarea {
     width: 100%;
