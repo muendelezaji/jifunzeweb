@@ -75,6 +75,17 @@ header #contact {
 header #contact h5 {
   margin: 0;
   padding: 0;
+  display: inline;
+}
+
+header #contact i{
+  padding-right: 5px;
+  padding-left: 5px;
+  color: aquamarine;
+}
+header #contact .fab .fa-whatsapp{
+  color: green;
+  
 }
 
 header #branding h1 {
