@@ -40,7 +40,7 @@ ul {
 header {
   background: #35424a;
   color: #ffffff;
-  padding-top: 10px;
+  padding-top: 0px;
   min-height: 70px;
   border-bottom: #e8491d 3px solid;
 }
@@ -228,7 +228,7 @@ footer {
     margin-top: 40px;
   }
   #newsletter button,
-  .quote button {
+  .quote button, a.button_1 {
     display: block;
     width: 100%;
   }
