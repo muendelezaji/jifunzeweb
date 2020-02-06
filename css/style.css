@@ -71,7 +71,8 @@ header #contact {
   opacity: 0.5;
   color: #e1edf5;
 }
-header #contact h5{
+
+header #contact h5 {
   margin: 0;
   padding: 0;
 }
@@ -125,7 +126,6 @@ header a:hover {
 #newsletter h1 {
   float: left;
 }
-
 
 #newsletter form {
   float: right;
