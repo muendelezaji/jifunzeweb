@@ -65,27 +65,27 @@ header #branding {
 header #contact {
   margin: 0;
   padding-left: 10px;
-  text-align: left;
+  text-align: center;
   background-color: #e8491d;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
   opacity: 0.5;
   color: #e1edf5;
+  display: flex;
+  justify-content: space-between;
 }
 
 header #contact h5 {
   margin: 0;
-  padding: 0;
-  display: inline;
+  padding-right: 15px;
 }
 
-header #contact i{
+header #contact i {
   padding-right: 5px;
   padding-left: 5px;
   color: aquamarine;
 }
-header #contact .fab .fa-whatsapp{
+header #contact .fab .fa-whatsapp {
   color: green;
-  
 }
 
 header #branding h1 {
@@ -97,7 +97,8 @@ header nav {
   margin-top: 10px;
 }
 
-header .highlight, header .current a {
+header .highlight,
+header .current a {
   color: #e8491d;
   font-weight: bold;
 }
@@ -111,7 +112,7 @@ header a:hover {
 
 #showcase {
   min-height: 400px;
-  background: url('../img/showcase.jpg') no-repeat 0 -400px;
+  background: url("../img/showcase.jpg") no-repeat 0 -400px;
   text-align: center;
   color: #ffffff;
 }
@@ -131,7 +132,7 @@ header a:hover {
 #newsletter {
   padding: 15px;
   color: #ffffff;
-  background: #35424a
+  background: #35424a;
 }
 
 #newsletter h1 {
@@ -174,7 +175,8 @@ aside#sidebar {
   margin-top: 10px;
 }
 
-aside#sidebar .quote input, aside#sidebar .quote textarea {
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
   width: 90%;
   padding: 5px;
 }
@@ -206,8 +208,15 @@ footer {
 
 /* Media Queries */
 
-@media(max-width: 768px) {
-  header #branding, header nav, header nav li, #newsletter h1, #newsletter form, #boxes .box, article#main-col, aside#sidebar {
+@media (max-width: 768px) {
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar {
     float: none;
     text-align: center;
     width: 100%;
@@ -218,11 +227,14 @@ footer {
   #showcase h1 {
     margin-top: 40px;
   }
-  #newsletter button, .quote button {
+  #newsletter button,
+  .quote button {
     display: block;
     width: 100%;
   }
-  #newsletter form input[type="email"], .quote input, .quote textarea {
+  #newsletter form input[type="email"],
+  .quote input,
+  .quote textarea {
     width: 100%;
     margin-bottom: 5px;
   }
