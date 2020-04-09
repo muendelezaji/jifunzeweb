@@ -116,10 +116,15 @@ header a:hover {
   text-align: center;
   color: #ffffff;
 }
-
+#showcase-virus {
+  min-height: 400px;
+  background: url("../img/showcase.jpg")no-repeat  0 -400px;
+  text-align: center;
+  color: #ffffff;
+}
 #showcase h1 {
   margin-top: 100px;
-  font-size: 55px;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
@@ -179,6 +184,26 @@ aside#sidebar .quote input,
 aside#sidebar .quote textarea {
   width: 90%;
   padding: 5px;
+}
+
+
+/* About Us Antivirus part */
+.links{
+  max-width: 80%;
+  margin: auto;
+}
+
+.links a{
+  display: flex;
+  text-decoration: none;
+  background-color:rgba(140, 60, 46, 0.5);
+  padding: 10px;
+  color: #cccccc;
+  font-size: 20px;
+  font-weight: 500;
+}
+.links .kasp{
+  margin-bottom: 20px;
 }
 
 /* Main-col */
