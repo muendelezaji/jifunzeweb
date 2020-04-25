@@ -112,16 +112,16 @@ header a:hover {
 /* Showcase */
 
 #showcase {
-  min-height: 300px;
+  /* min-height: 300px; */
   /* background: url("../img/showcase.jpg") no-repeat 0 -400px; */
   text-align: center;
   color: #ffffff;
 }
 
-#showcase iframe {
+/* #showcase iframe {
   margin: 5px;
   padding-left: 2px;
-}
+} */
 
 #showcase-virus {
   min-height: 400px;
@@ -146,6 +146,7 @@ header a:hover {
   padding: 15px;
   color: #ffffff;
   background: #35424a;
+  margin-top: 10px;
 }
 
 #newsletter h1 {
