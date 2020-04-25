@@ -117,10 +117,12 @@ header a:hover {
   text-align: center;
   color: #ffffff;
 }
+
 #showcase iframe {
   margin: 5px;
   padding-left: 2px;
 }
+
 #showcase-virus {
   min-height: 400px;
   background: url("../img/showcase.jpg")no-repeat 0 -400px;
@@ -240,7 +242,7 @@ footer {
 /* Media Queries */
 
 @media (max-width: 768px) {
-  header #branding, header nav, header nav li, #newsletter h1, #newsletter form, #boxes .box, article#main-col, aside#sidebar, #showcase .container {
+  header #branding, header nav, header nav li, #newsletter h1, #newsletter form, #boxes .box, article#main-col, aside#sidebar, #showcase .container, iframe {
     float: none;
     text-align: center;
     width: 100%;
