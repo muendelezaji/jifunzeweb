@@ -8,7 +8,7 @@ body {
 /* Global */
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: auto;
   overflow: hidden;
 }
@@ -59,7 +59,8 @@ header li {
 }
 
 header #branding {
-  float: left;
+  /* float: left; */
+  text-align: center;
 }
 
 header #contact {
@@ -84,6 +85,7 @@ header #contact i {
   padding-left: 5px;
   color: aquamarine;
 }
+
 header #contact .fab .fa-whatsapp {
   color: green;
 }
@@ -97,8 +99,7 @@ header nav {
   margin-top: 10px;
 }
 
-header .highlight,
-header .current a {
+header .highlight, header .current a {
   color: #e8491d;
   font-weight: bold;
 }
@@ -111,17 +112,22 @@ header a:hover {
 /* Showcase */
 
 #showcase {
-  min-height: 400px;
-  background: url("../img/showcase.jpg") no-repeat 0 -400px;
+  min-height: 350px;
+  /* background: url("../img/showcase.jpg") no-repeat 0 -400px; */
   text-align: center;
   color: #ffffff;
+}
+#showcase iframe {
+  margin: 5px;
+  padding-left: 2px;
 }
 #showcase-virus {
   min-height: 400px;
-  background: url("../img/showcase.jpg")no-repeat  0 -400px;
+  background: url("../img/showcase.jpg")no-repeat 0 -400px;
   text-align: center;
   color: #ffffff;
 }
+
 #showcase h1 {
   margin-top: 100px;
   font-size: 30px;
@@ -180,29 +186,29 @@ aside#sidebar {
   margin-top: 10px;
 }
 
-aside#sidebar .quote input,
-aside#sidebar .quote textarea {
+aside#sidebar .quote input, aside#sidebar .quote textarea {
   width: 90%;
   padding: 5px;
 }
 
-
 /* About Us Antivirus part */
-.links{
+
+.links {
   max-width: 80%;
   margin: auto;
 }
 
-.links a{
+.links a {
   display: flex;
   text-decoration: none;
-  background-color:rgba(140, 60, 46, 0.5);
+  background-color: rgba(140, 60, 46, 0.5);
   padding: 10px;
   color: #cccccc;
   font-size: 20px;
   font-weight: 500;
 }
-.links .kasp{
+
+.links .kasp {
   margin-bottom: 20px;
 }
 
@@ -234,14 +240,7 @@ footer {
 /* Media Queries */
 
 @media (max-width: 768px) {
-  header #branding,
-  header nav,
-  header nav li,
-  #newsletter h1,
-  #newsletter form,
-  #boxes .box,
-  article#main-col,
-  aside#sidebar {
+  header #branding, header nav, header nav li, #newsletter h1, #newsletter form, #boxes .box, article#main-col, aside#sidebar, #showcase .container {
     float: none;
     text-align: center;
     width: 100%;
@@ -252,14 +251,11 @@ footer {
   #showcase h1 {
     margin-top: 40px;
   }
-  #newsletter button,
-  .quote button, a.button_1 {
+  #newsletter button, .quote button, a.button_1 {
     display: block;
     width: 100%;
   }
-  #newsletter form input[type="email"],#newsletter form input[type="phone"],
-  .quote input,
-  .quote textarea {
+  #newsletter form input[type="email"], #newsletter form input[type="phone"], .quote input, .quote textarea {
     width: 100%;
     margin-bottom: 5px;
   }
