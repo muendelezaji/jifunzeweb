@@ -159,7 +159,7 @@ body {
   margin: 0 0 20px;
 }
 
-.form {
+form {
   padding: 30px 40px;
 }
 
@@ -209,7 +209,7 @@ body {
   visibility: visible;
 }
 
-.form button {
+form button {
   cursor: pointer;
   background-color: #3498db;
   border: 2px solid #3498db;
