@@ -140,7 +140,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo a {
   color: #fff;
-  
 }
 
 #header .logo span {
@@ -542,7 +541,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 
 section {
-  padding: 60px 0;
+  padding: 10px 0;
   overflow: hidden;
 }
 
