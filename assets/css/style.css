@@ -552,6 +552,7 @@ form input[type='email'] {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+    font-weight: 200;
   }
 
   .input-form {
