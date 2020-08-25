@@ -89,11 +89,11 @@
       <h2> Learning through practice and project via - Zoom Connect</h2>
       
 
-      <form action="#">
+      <form action="POST" name="contact" data-netlify="true">
         <div class="input-form">
           <input class="form-control mb-1" type="text" name="name" placeholder="Enter your Name" required>
           <input class="form-control mb-1" type="email" name="email" placeholder="Enter your Email" required>
-          <input class="form-control mb-1" type="phone" name="phone" placeholder="Enter your Mobile" required>
+          <input class="form-control mb-1" type="tel" name="phone" placeholder="Enter your Mobile" pattern="^\d{10}$" required>
           <button type="submit" class="btn-get-started">WAITLIST ME</button>
         </div>
       </form>
